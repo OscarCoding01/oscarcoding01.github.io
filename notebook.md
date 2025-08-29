@@ -25,7 +25,7 @@
 | StatelessWidget  | A widget that doesn't change                                                 |                                           |
 | StatefulWidget   | A widget that can change over time                                                 |                                           |
 | Navigator        |                                                  |                                           |
-| AppBar           | Top nav                                                 |                                           |
+| AppBar           | Top navigation bar                                                |                                           |
 | Column           |                                                  |                                           |
 | Row              |                                                  |                                           |
 | Container        |                                                  |                                           |
