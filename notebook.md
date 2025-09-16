@@ -77,9 +77,9 @@
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
 | main() | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | Opening up game |  |
-| MaterialApp | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-|      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
-|      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
+| MaterialApp | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | UI |  |
+| Scaffold | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
+| Column | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 |      | A widget that shows things side-by-side. | `Row(...)` |  |  |
 |      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
 |      | A widget to display text on the screen. | `Text('Hello')` |  |  |
