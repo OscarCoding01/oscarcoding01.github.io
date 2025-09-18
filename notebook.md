@@ -47,8 +47,8 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-| Variable | A named container used to store a value that may change. | `var x = 5;` | Password changing |  |
-| Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+| Variable | A named container used to store a value that may change. | `var x = 5;` | Password changing | main.adrt, title: 'TSA Portfolio', |
+| Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const MyPortfolioApp({super.key}); |
 | Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
 | String | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 | Interger | Whole number values. | `int age = 16;` | Age check |  |
@@ -96,7 +96,7 @@
 | Widget Build | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
 | Build | Required in every widget class to describe what to show. | `build` |  |  |
 | BuildContext | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-| super.key | A keyword used to pass a value to the parent widget. | `super.key` | emailing |  |
+| super.key | A keyword used to pass a value to the parent widget. | `super.key` | Emailing |  |
 | const | A keyword that means the value won't change and is set once. | `const` | Next button |  |
 
 
