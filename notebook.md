@@ -49,7 +49,7 @@
 |------|------------|--------------------------|-------------------|-------------|
 | Variable | A named container used to store a value that may change. | `var x = 5;` | Password changing | main.adrt, title: 'TSA Portfolio', |
 | Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const MyPortfolioApp({super.key}); |
-| Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+| Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner: false, |
 | String | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 | Interger | Whole number values. | `int age = 16;` | Age check |  |
 | Double | Number values with decimals. | `double age = 16.2;` |  |  |
