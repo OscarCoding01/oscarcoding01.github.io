@@ -47,14 +47,14 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-| Variable | A named container used to store a value that may change. | `var x = 5;` | Password changing | main.adrt, title: 'TSA Portfolio', |
+| Variable | A named container used to store a value that may change. | `var x = 5;` | Password changing | main.dart, title: 'TSA Portfolio', |
 | Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const MyPortfolioApp({super.key}); |
 | Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner: false, |
-| String | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+| String | A sequence of characters used to represent words or text. | `"Hello World"` | text bubble |  |
 | Interger | Whole number values. | `int age = 16;` | Age check |  |
 | Double | Number values with decimals. | `double age = 16.2;` |  |  |
-| Boolean | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
-| List | A collection of values in a specific order. | `List<String> names = [];` |  |  |
+| Boolean | A value that can be true or false. | `bool isLoggedIn = false;` | Log in |  |
+| List | A collection of values in a specific order. | `List<String> names = [];` | Quest |  |
 | Null | A special value that means “nothing.” | `String? name = null;` |  |  |
 | Function | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | Turn on console |  |
 | Parameter | The information passed into a function to change how it works. | `greet(String name)` |  |  |
@@ -62,7 +62,7 @@
 | Scope | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
 | Class | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | Defines you |  |
 | Object | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-| Property | A variable that belongs to a class/object. | `String name;` | Limitations |  |
+| Property | A variable that belongs to a class/object. | `String name;` | Amount of computers |  |
 | Method | A function that belongs to a class. | `void bark() {}` |  |  |
 | Constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` | Legos |  |
 | Abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
