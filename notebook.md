@@ -100,6 +100,18 @@
 | const | A keyword that means the value won't change and is set once. | `const` | Next button |  |
 
 
+||||||
+| Scanner | Creates a scanner object to take input from user | Scanner in = new Scanner(System.in);|||
+| import Scanner | Gives access to Scanner class, required at top | import java.util.Scanner; | | |
+| print line statement | prints what's in the parenthesis, add line after | System.out.printIn(" "); | | |
+| print statement | prints the content in the parenthesis | System.out.print(" "); | | |
+| input nextLine | reads in a String from the user | input.nextLine(); | | |
+| input nextInt | reads in  an int form the user | input.nextInt();
+| input nextDouble | reads in doubles 
+| input nextBoolean |
+| Arithmetic operator |
+| | | |
+
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks
 ## Markdown Style Guide for Coding Notebooks
