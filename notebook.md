@@ -112,6 +112,8 @@
 | Arithmetic operator |
 | | | |
 
+| Maximum int | The max value an int can hold: 2147483648 | Interger.MAX_VALUE |
+| Minimum int | The minimum value an int can hold: -2147483648
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks
 ## Markdown Style Guide for Coding Notebooks
