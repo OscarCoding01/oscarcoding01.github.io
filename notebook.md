@@ -110,6 +110,10 @@
 | input nextDouble | reads in doubles 
 | input nextBoolean |
 | Arithmetic operator |
+| Overloaded method/function or constructor | Uses the same name, but had different parameters | Pizza(), Pizza(string toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping |||
+| dot notation | Methods are called on objects using dots after the object name | object.method(value); |
+| Concatenate | To combine Strings with other Strings and/or variables | Strings greeting = "Hello" + "My name is " + name ". "; |
+
 | | | |
 
 | Maximum int | The max value an int can hold: 2147483648 | Interger.MAX_VALUE |
