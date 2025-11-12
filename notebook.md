@@ -47,6 +47,8 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 | Variable | A named container used to store a value that may change. | `var x = 5;` | Password changing | main.dart, title: 'TSA Portfolio', |
 | Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const MyPortfolioApp({super.key}); |
 | Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner: false, |
@@ -98,9 +100,6 @@
 | BuildContext | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 | super.key | A keyword used to pass a value to the parent widget. | `super.key` | Emailing |  |
 | const | A keyword that means the value won't change and is set once. | `const` | Next button |  |
-
-
-||||||
 | Scanner | Creates a scanner object to take input from user | Scanner in = new Scanner(System.in);|||
 | import Scanner | Gives access to Scanner class, required at top | import java.util.Scanner; | | |
 | print line statement | prints what's in the parenthesis, add line after | System.out.printIn(" "); | | |
@@ -114,7 +113,6 @@
 | dot notation | Methods are called on objects using dots after the object name | object.method(value); |
 | Concatenate | To combine Strings with other Strings and/or variables | Strings greeting = "Hello" + "My name is " + name ". "; |
 
-| | | |
 
 | Maximum int | The max value an int can hold: 2147483648 | Interger.MAX_VALUE |
 | Minimum int | The minimum value an int can hold: -2147483648
