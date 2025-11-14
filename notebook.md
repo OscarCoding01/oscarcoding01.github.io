@@ -71,6 +71,7 @@
 | Override | Changing how a built-in or inherited function behaves. | `@override` | Overriding code |  |
 | Void | A function that does not return a value. | `void printMessage() {}` |  |  |
 
+
 [Flutter Definitions](#flutter_definitions)
 
 
@@ -112,10 +113,21 @@
 | Overloaded method/function or constructor | Uses the same name, but had different parameters | Pizza(), Pizza(string toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping |||
 | dot notation | Methods are called on objects using dots after the object name | object.method(value); |
 | Concatenate | To combine Strings with other Strings and/or variables | Strings greeting = "Hello" + "My name is " + name ". "; |
+| index | location value of each character in a String or list, starting at 0 | "Hello" index of 'e' is 1 |
+| Substring | Part of a larger String | "llo" is a subString of "Hello" | 
 
 
 | Maximum int | The max value an int can hold: 2147483648 | Interger.MAX_VALUE |
-| Minimum int | The minimum value an int can hold: -2147483648
+| Minimum int | The minimum value an int can hold: -2147483648 |
+
+[String notes](#string-notes)
+### String Notes
+- String have indices (pural for index,) which start 0, "Hello" has indices 0(H)
+- Final index in a string is length - 1;
+
+### String Methods Table
+
+<img width="1236" height="416" alt="Screenshot 2025-11-14 110218" src="https://github.com/user-attachments/assets/4881bf76-1e69-4eda-b64b-d60b0d8b5f77" />
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks
 ## Markdown Style Guide for Coding Notebooks
